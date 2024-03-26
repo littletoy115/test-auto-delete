@@ -26,6 +26,12 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.card-custom{
+  border:1px solid white;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
